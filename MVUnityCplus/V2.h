@@ -340,7 +340,7 @@ public:
 	{
 		if (XY.Mod() == 0)
 		{
-			return Zero;
+			return V2(0, 0);
 		}
 		double theta = GetTheta(XY);
 		return V2(XY.Mod(), theta);
